@@ -10,25 +10,25 @@ function generateWish() {
     }
 
     let wishText = "";
-    switch (occasion) {
-        case "birthday":
-            wishText = `🎂 Happy Birthday ${name}! 🎉`;
-            break;
-        case "anniversary":
-            wishText = `💞 Happy Anniversary ${name}! 💐`;
-            break;
-      case "retirement":
-    wishText = `🎓 Congratulations ${name} on your Retirement! 🎉`;
-    break;
-        case "graduation":
-            wishText = `🎓 Congratulations ${name} on your Graduation! 🏆`;
-            break;
-        case "newyear":
-            wishText = `🎆 Happy New Year ${name}! ✨`;
-            break;
-        default:
-            wishText = `🎉 Best Wishes ${name}!`;
-    }
+  switch (occasion) {
+    case "birthday":
+        wishText = `🎂 Happy Birthday ${name}! 🎉`;
+        break;
+    case "anniversary":
+        wishText = `💞 Happy Anniversary ${name}! 💐`;
+        break;
+    case "retirement":
+        wishText = `🎓 Congratulations ${name} on your Retirement! 🎉`;
+        break;
+    case "graduation":
+        wishText = `🎓 Congratulations ${name} on your Graduation! 🏆`;
+        break;
+    case "newyear":
+        wishText = `🎆 Happy New Year ${name}! ✨`;
+        break;
+    default:
+        wishText = `🎉 Best Wishes ${name}!`;
+}
 
     output.textContent = wishText;
     output.classList.remove('show');
