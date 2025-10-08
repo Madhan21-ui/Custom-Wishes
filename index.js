@@ -17,7 +17,7 @@ function generateWish() {
         case "anniversary":
             wishText = `💞 Happy Anniversary ${name}! 💐`;
             break;
-             case "retairment":
+        case "retairment":
             wishText = `🎓 Congratulations ${name} on your Retairment! `;
             break;
         case "graduation":
