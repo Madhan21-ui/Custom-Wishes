@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish Generator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🌈 Personalized Wish Generator 🌟</h1>
+
+        <div class="inputs">
+            <input type="text" id="nameInput" placeholder="Enter Name">
+            <select id="occasionInput">
+                <option value="birthday">Birthday</option>
+                <option value="anniversary">Anniversary</option>
+                <option value="graduation">Graduation</option>
+                <option value="newyear">New Year</option>
+            </select>
+            <button onclick="generateWish()">Generate Wish</button>
+        </div>
+
+        <div id="output" class="output"></div>
+    </div>
+
+    <canvas id="confetti"></canvas>
+    <script src="index.js"></script>
+</body>
+
+</html>
