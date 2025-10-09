@@ -11,7 +11,9 @@ function generateWish() {
 
     let wishText = "";
   switch (occasion) {
-    
+     case "birthday":
+        wishText = `💞 Happy Birthday ${name}! 💐`;
+        break;
     case "anniversary":
         wishText = `💞 Happy Anniversary ${name}! 💐`;
         break;
